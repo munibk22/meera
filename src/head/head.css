@@ -1,6 +1,17 @@
 .head{
     /* width:100vw; */
-    height:40vw;
+    height:30vw;
+/* background-color: #007B40     ; */
+background-size: contain;
+background-color: #284243;
 
     }
     
+ .logo{
+     width:200px;
+     background-image: url("../pics/logo2.png");
+     background-repeat: no-repeat;
+     border-radius: 50%;
+     height:200px;
+     
+ }   
