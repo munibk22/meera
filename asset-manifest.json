@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meera/static/css/main.f0cb28c6.chunk.css",
+    "main.js": "/meera/static/js/main.2662735b.chunk.js",
+    "main.js.map": "/meera/static/js/main.2662735b.chunk.js.map",
+    "runtime-main.js": "/meera/static/js/runtime-main.342b12d0.js",
+    "runtime-main.js.map": "/meera/static/js/runtime-main.342b12d0.js.map",
+    "static/js/2.e4bd69c4.chunk.js": "/meera/static/js/2.e4bd69c4.chunk.js",
+    "static/js/2.e4bd69c4.chunk.js.map": "/meera/static/js/2.e4bd69c4.chunk.js.map",
+    "index.html": "/meera/index.html",
+    "static/css/main.f0cb28c6.chunk.css.map": "/meera/static/css/main.f0cb28c6.chunk.css.map",
+    "static/js/2.e4bd69c4.chunk.js.LICENSE.txt": "/meera/static/js/2.e4bd69c4.chunk.js.LICENSE.txt",
+    "static/media/invest.57e5a2e4.jpg": "/meera/static/media/invest.57e5a2e4.jpg",
+    "static/media/phone.f60cc21b.png": "/meera/static/media/phone.f60cc21b.png",
+    "static/media/time.bd1a7aaf.jpg": "/meera/static/media/time.bd1a7aaf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.342b12d0.js",
+    "static/js/2.e4bd69c4.chunk.js",
+    "static/css/main.f0cb28c6.chunk.css",
+    "static/js/main.2662735b.chunk.js"
+  ]
+}
