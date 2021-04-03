@@ -4,22 +4,38 @@ import './css/default.css'
 import Body from './body/Body'
 import './body/body.css'
 import Head from './head/Head'
+import Banner from './head/Banner'
+import Footer from './footer/Footer'
+import Search from './head/Search'
 
 export default function Home() {
     return (
         <div>
-            <div className="head flex alignitems justify">
+
+
+
+            <div className="" id="home">
                 <Head />
             </div>
 
-            <div className="bod flex margin">
 
-                <Body />
+
+
+            <div className="bod flex margin width75 relative max2000" style={{ maxWidth: '' }}>
+
+                <div className="absolutetop width75 ">
+                    <Banner />
+                </div>
+
+                <div className="margintop max2000 justify" style={{ maxWidth: '' }} >
+                    <Body />
+                </div>
+
 
             </div>
 
-            <div className="footer">
-
+            <div className="margintop15">
+                <Footer />
             </div>
 
         </div>

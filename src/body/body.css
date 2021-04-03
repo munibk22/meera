@@ -1,4 +1,105 @@
-.bod{
-    width:85vw; 
-    background-color: #007B40;
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
 }
+
+.bod{
+    width:75vw; 
+    /* background-color: #007B40; */
+    /* background-color: #00C767; */
+    /* background-color: #2B9160 !important; */
+    /* background-color: #3CC784; */
+    /* max-width: 1400px; */
+    justify-content: center;
+}
+ .p1{
+    width: 22rem;
+    height: 25rem;
+border: 8px #8B7619 solid;
+/* height: 50px; */
+
+    }
+
+    .p2{
+        justify-content: flex-end;
+        width: 75vw;
+        max-width: -webkit-fill-available;
+        }
+    
+
+    
+    .img1div{
+        border:4px #284243 solid;
+            left: 21rem;
+            top: 2rem;
+                }
+
+    .img1{
+        width: 17rem;
+        height: 21rem;
+        border: 3px #b09521;
+        /* background-image: url("../pics/invest.jpg"); */
+        object-fit: cover;
+      
+            }
+
+
+            .img2div{
+                border:4px #284243 solid;
+                    right: 21rem;
+                    top: 2rem;
+                   
+                        }
+        
+            .img2{
+                width: 17rem;
+                height: 21rem;
+                border: 3px #b09521;
+                /* background-image: url("../pics/invest.jpg"); */
+                object-fit: unset;
+              
+                    }
+        
+
+
+
+
+            .img3div{
+                /* border:4px #284243 solid; */
+                left: 21rem;
+                    top: 2rem;
+                        }
+        
+            .img3{
+                max-width: 15rem;
+                height: 22rem;
+                /* border: 3px #b09521; */
+                /* background-image: url("../pics/invest.jpg"); */
+                object-fit: cover;
+              
+                    }
+
+                    @media (max-width:665px){
+                        .img3div ,.img1div,.img2div
+                        {
+                            display:none;
+                        }
+                        .p1{
+                            margin:auto !important;
+
+                        }
+                    }
+
+
+                    fieldset.scheduler-border {
+                        border: solid 1px #DDD !important;
+                        padding: 0 10px 10px 10px;
+                        border-bottom: none;
+                    }
+                    
+                    legend.scheduler-border {
+                        width: auto !important;
+                        border: none;
+                        font-size: 14px;
+                    }

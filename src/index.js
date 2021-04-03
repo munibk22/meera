@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+
+export default function Index() {
+
+  return (
+    <div>
+
+    </div>
+  )
+}
+
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

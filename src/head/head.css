@@ -1,17 +1,70 @@
 .head{
     /* width:100vw; */
-    height:30vw;
+    height:45vh;
 /* background-color: #007B40     ; */
-background-size: contain;
+/* background-size: contain; */
 background-color: #284243;
 
     }
     
  .logo{
-     width:200px;
+     width:180px;
      background-image: url("../pics/logo2.png");
      background-repeat: no-repeat;
      border-radius: 50%;
-     height:200px;
+     height:180px;
      
  }   
+
+ .banner{
+    background-color: #007B40     ;
+    height: 30px;
+    max-width: 2000px;
+ }
+
+ .navbar{
+color:white !important;
+max-width: 2000px;
+
+
+ }
+
+ a{
+    color:white !important; 
+    text-decoration: none;
+    font-size: 1.2em;
+ }
+
+.navul{
+
+    flex:1;
+    max-width: 60%;
+    justify-content: space-between;
+
+}
+
+
+
+ @media (max-width:500px){
+
+    a{
+font-size: .7rem !important;
+
+    }
+ }
+
+ 
+ @media (max-width:668px){
+    a{
+        font-size:.8rem;
+
+    }
+}
+
+ 
+@media (max-width:568px){
+    .navbar, .navul {
+       /* flex-direction: column; */
+
+    }
+}
