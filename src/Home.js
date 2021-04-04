@@ -7,6 +7,8 @@ import Head from './head/Head'
 import Banner from './head/Banner'
 import Footer from './footer/Footer'
 import Search from './head/Search'
+import PricePanel from './pricepanel/PricePanel'
+// import './pricepanel/panel.css'
 
 export default function Home() {
     return (
@@ -32,6 +34,10 @@ export default function Home() {
                 </div>
 
 
+            </div>
+
+            <div className="margintop flex justify  ">
+                <PricePanel />
             </div>
 
             <div className="margintop15">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nav() {
     return (
-        <nav className="navbar flex justifybetween  width75 font600" >
+        <nav className="navbar sticky flex justifybetween  font600" style={{ width: "73vw" }} >
 
             <a href="/">Home</a>
 

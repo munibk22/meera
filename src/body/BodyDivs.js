@@ -6,13 +6,21 @@ import Time from '../pics/time.jpg'
 export default function BodyDivs() {
     return (
         <div>
-            <div className="relative flex " style={{ maxWidth: "" }}>
+            <div className="relative flex container margintop " style={{ maxWidth: "" }}>
 
                 <fieldset className="p1 ">
-                    <legend><h2>Sample Text </h2></legend>
+                    <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2></legend>
+                    <div className="">
+                        <h4 style={{ color: '005d31 ' }}>Inner Headline</h4>
+                    </div>
+                    <br />
+                    <p className="" style={{ width: "70%" }}>
+                        Aliqua occaecat dolor incididunt ut magna id eiusmod sit consequat nisi. Adipisicing cupidatat ad dolore consectetur aliqua velit aute. Nulla cillum qui dolore sunt enim quis ut tempor ut non exercitation laborum fugiat nulla. In magna labore enim sunt enim. Mollit exercitation commodo laborum aliqua cillum incididunt. Amet amet Lorem dolor mollit anim esse fugiat incididunt officia eiusmod tempor est sit. Cillum tempor fugiat pariatur enim excepteur Lorem ipsum eiusmod ipsum deserunt amet.
+                            </p>
+
                 </fieldset>
 
-                <div className="flex absolute img1div ">
+                <div className="flex absolute img1div  ">
                     <img alt='' src={Invest} className="img1"
                         style={{ maxWidth: "35vw" }}
                     />
@@ -24,6 +32,20 @@ export default function BodyDivs() {
 
                 <fieldset className="p1">
                     <legend><h2>Sample Text </h2></legend>
+                    {/* #432928 */}
+                    <div className=" flex justifyend">
+                        <h4 style={{ color: '#284336' }}>Time To Invest</h4>
+                    </div>
+                    <br />
+                    <div className=" flex justifyend">
+
+
+                        <p className="" style={{ width: "70%", textAlign: 'end', color: '#432928' }}>
+                            Aliqua occaecat dolor incididunt ut magna id eiusmod sit consequat nisi. Adipisicing cupidatat ad dolore consectetur aliqua velit aute. Nulla cillum qui dolore sunt enim quis ut tempor ut non exercitation laborum fugiat nulla. In magna labore enim sunt enim. Mollit exercitation commodo laborum aliqua cillum incididunt. Amet amet Lorem dolor mollit anim esse fugiat incididunt officia eiusmod tempor est sit. Cillum tempor fugiat pariatur enim excepteur Lorem ipsum eiusmod ipsum deserunt amet.
+
+    </p>
+
+                    </div>
                 </fieldset>
 
                 <div className="flex absolute img2div ">
@@ -32,10 +54,17 @@ export default function BodyDivs() {
                 </div>
             </div>
 
-            <div className="relative flex margintop">
+            <div className="relative flex margintop container">
 
-                <fieldset className="p1" style={{ maxWidth: "66vw" }}>
+                <fieldset className="p1" style={{ maxWidth: "" }}>
                     <legend><h2>Sample Text </h2> </legend>
+                    <div className="">
+                        <h4>Inner Headline</h4>
+                    </div>
+                    <br />
+                    <p className="" style={{ width: "70%" }}>
+                        Aliqua occaecat dolor incididunt ut magna id eiusmod sit consequat nisi. Adipisicing cupidatat ad dolore consectetur aliqua velit aute. Nulla cillum qui dolore sunt enim quis ut tempor ut non exercitation laborum fugiat nulla. In magna labore enim sunt enim. Mollit exercitation commodo laborum aliqua cillum incididunt. Amet amet Lorem dolor mollit anim esse fugiat incididunt officia eiusmod tempor est sit. Cillum tempor fugiat pariatur enim excepteur Lorem ipsum eiusmod ipsum deserunt amet.
+                            </p>
                 </fieldset>
 
                 <div className="flex absolute img3div ">

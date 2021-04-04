@@ -8,11 +8,11 @@ background-color: #284243;
     }
     
  .logo{
-     width:180px;
+     width:11.3rem;
      background-image: url("../pics/logo2.png");
      background-repeat: no-repeat;
      border-radius: 50%;
-     height:180px;
+     height:11.3rem;
      
  }   
 
@@ -20,12 +20,17 @@ background-color: #284243;
     background-color: #007B40     ;
     height: 30px;
     max-width: 2000px;
+    border-radius: 300px;
+    color: #cfa900;
+    text-align: center;
  }
 
  .navbar{
 color:white !important;
 max-width: 2000px;
-
+position: sticky !important;
+  top: 0px;
+background-color:#284243;
 
  }
 

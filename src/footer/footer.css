@@ -1,8 +1,16 @@
 .footer{
 
-    height:15vh;
+    height:18vh;
     width: 100vw;
     background-color: #284243;
     color:white;
-    
+
+}
+
+.top{
+    border-bottom: 1px #2e7700 solid;
+}
+
+.mid{
+
 }

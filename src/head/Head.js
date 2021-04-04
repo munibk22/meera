@@ -33,7 +33,8 @@ export default function Head() {
 
             </div>
 
-            <div className=" flex justify absolutebottom">
+
+            <div className=" flex justify absolutebottom ">
                 <Nav />
             </div>
 

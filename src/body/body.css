@@ -13,11 +13,21 @@ legend.scheduler-border {
     /* max-width: 1400px; */
     justify-content: center;
 }
+
+
+.container{
+    width: 75vw;
+    max-width: -webkit-fill-available;
+    justify-content: flex-start;
+
+}
  .p1{
     width: 22rem;
-    height: 25rem;
-border: 8px #8B7619 solid;
+    height: 26rem;
+border: 8px #8F854F solid;
+
 /* height: 50px; */
+overflow: hidden;
 
     }
 
@@ -30,7 +40,7 @@ border: 8px #8B7619 solid;
 
     
     .img1div{
-        border:4px #284243 solid;
+        border:4px #005d31  solid;
             left: 21rem;
             top: 2rem;
                 }
@@ -38,7 +48,7 @@ border: 8px #8B7619 solid;
     .img1{
         width: 17rem;
         height: 21rem;
-        border: 3px #b09521;
+        
         /* background-image: url("../pics/invest.jpg"); */
         object-fit: cover;
       
@@ -46,7 +56,7 @@ border: 8px #8B7619 solid;
 
 
             .img2div{
-                border:4px #284243 solid;
+                border:4px #005d31  solid;
                     right: 21rem;
                     top: 2rem;
                    
@@ -55,7 +65,7 @@ border: 8px #8B7619 solid;
             .img2{
                 width: 17rem;
                 height: 21rem;
-                border: 3px #b09521;
+               
                 /* background-image: url("../pics/invest.jpg"); */
                 object-fit: unset;
               
@@ -66,7 +76,7 @@ border: 8px #8B7619 solid;
 
 
             .img3div{
-                /* border:4px #284243 solid; */
+                /* border:4px #007B40 solid; */
                 left: 21rem;
                     top: 2rem;
                         }
@@ -74,7 +84,7 @@ border: 8px #8B7619 solid;
             .img3{
                 max-width: 15rem;
                 height: 22rem;
-                /* border: 3px #b09521; */
+             
                 /* background-image: url("../pics/invest.jpg"); */
                 object-fit: cover;
               
