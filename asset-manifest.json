@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meera/static/css/main.a7c38c62.chunk.css",
-    "main.js": "/meera/static/js/main.54e48bae.chunk.js",
-    "main.js.map": "/meera/static/js/main.54e48bae.chunk.js.map",
+    "main.js": "/meera/static/js/main.141e33e9.chunk.js",
+    "main.js.map": "/meera/static/js/main.141e33e9.chunk.js.map",
     "runtime-main.js": "/meera/static/js/runtime-main.342b12d0.js",
     "runtime-main.js.map": "/meera/static/js/runtime-main.342b12d0.js.map",
     "static/js/2.3a9bda51.chunk.js": "/meera/static/js/2.3a9bda51.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.342b12d0.js",
     "static/js/2.3a9bda51.chunk.js",
     "static/css/main.a7c38c62.chunk.css",
-    "static/js/main.54e48bae.chunk.js"
+    "static/js/main.141e33e9.chunk.js"
   ]
 }
