@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/meera/static/css/main.a7c38c62.chunk.css",
-    "main.js": "/meera/static/js/main.141e33e9.chunk.js",
-    "main.js.map": "/meera/static/js/main.141e33e9.chunk.js.map",
+    "main.css": "/meera/static/css/main.9ff36f33.chunk.css",
+    "main.js": "/meera/static/js/main.a134ae11.chunk.js",
+    "main.js.map": "/meera/static/js/main.a134ae11.chunk.js.map",
     "runtime-main.js": "/meera/static/js/runtime-main.342b12d0.js",
     "runtime-main.js.map": "/meera/static/js/runtime-main.342b12d0.js.map",
-    "static/js/2.3a9bda51.chunk.js": "/meera/static/js/2.3a9bda51.chunk.js",
-    "static/js/2.3a9bda51.chunk.js.map": "/meera/static/js/2.3a9bda51.chunk.js.map",
+    "static/js/2.fb8d3300.chunk.js": "/meera/static/js/2.fb8d3300.chunk.js",
+    "static/js/2.fb8d3300.chunk.js.map": "/meera/static/js/2.fb8d3300.chunk.js.map",
     "index.html": "/meera/index.html",
-    "static/css/main.a7c38c62.chunk.css.map": "/meera/static/css/main.a7c38c62.chunk.css.map",
-    "static/js/2.3a9bda51.chunk.js.LICENSE.txt": "/meera/static/js/2.3a9bda51.chunk.js.LICENSE.txt",
+    "static/css/main.9ff36f33.chunk.css.map": "/meera/static/css/main.9ff36f33.chunk.css.map",
+    "static/js/2.fb8d3300.chunk.js.LICENSE.txt": "/meera/static/js/2.fb8d3300.chunk.js.LICENSE.txt",
+    "static/media/icon.a5b52996.svg": "/meera/static/media/icon.a5b52996.svg",
     "static/media/icon1.8dcb09e1.png": "/meera/static/media/icon1.8dcb09e1.png",
     "static/media/icon2.1c06acfd.png": "/meera/static/media/icon2.1c06acfd.png",
     "static/media/icon3.7ac32440.png": "/meera/static/media/icon3.7ac32440.png",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.342b12d0.js",
-    "static/js/2.3a9bda51.chunk.js",
-    "static/css/main.a7c38c62.chunk.css",
-    "static/js/main.141e33e9.chunk.js"
+    "static/js/2.fb8d3300.chunk.js",
+    "static/css/main.9ff36f33.chunk.css",
+    "static/js/main.a134ae11.chunk.js"
   ]
 }
