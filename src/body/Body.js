@@ -8,7 +8,7 @@ export default function Body() {
         <div>
 
 
-            <div className="margintop">     <BodyDivs /> </div>
+            <div className=" ">     <BodyDivs /> </div>
 
 
 

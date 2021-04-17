@@ -3,20 +3,29 @@ import { Link } from 'react-router-dom'
 
 export default function Coin({ coin }) {
     return (
-        <Link to='/coindetail'>
-            <li className="flex justifyaround alignitems coinlist-item
-           list-group-item   ist-group-item-action       ">
+        <div className="flex justifybetween alignitems max2000"
 
-                <img className="coinlist-image" src={coin.img} alt="" />
-                <span className="">{coin.current_price}</span>
+            style={{
+                // width: "55rem",
+            }}>
 
-                <span className="text-success mr-2">
-                    <i className="fas fa-short-down align-middle mr-1"></i>
-                    {coin.price_change_percentage_24h}
 
-                </span>
-            </li>
+            <img className="coinimg marginright1" src={coin.image} alt='' />
+            <div className="marginright2">
+                {coin.name}
+            </div>
 
-        </Link>
+            <div className="marginright2 flex">
+                CurrentPrice:
+                <div className="" style={{ marginLeft: '3%', color: "#97d451" }}>
+                    {coin.current_price}
+                </div>
+
+            </div>
+
+            <div className="">
+                {/* {coin.price_change_24h} */}
+            </div>
+        </div>
     )
 }

@@ -1,22 +1,22 @@
 .pricing-plan:hover { 
-    transform: scale(1.08); 
+    transform: scale(1.06); 
     
     }
   
     .threedhover:hover
   {
           box-shadow:
-                  -1px 1px rgb(81, 246, 4),
-                  -2px 2px rgb(81, 246, 4),
-                   -3px 3px rgb(81, 246, 4); 
-                  /* 4px 4px rgb(246, 101, 4); */
+                  -1px 1px rgb(46, 141, 1),
+                  -2px 2px rgb(46, 141, 1),
+                   -3px 3px rgb(46, 141, 1), 
+                   -5px 5px rgb(46, 141, 1);
                   
           -webkit-transform: scale(1.08);
           transform: scale(1.07);
   }
 
 
-ol, ul {
+ol, .panelul {
 	list-style: none;
     padding-inline-start:0 !important;
 
@@ -45,9 +45,10 @@ body {
 } */
 
 .panel {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 10px;
-  padding: 15px 25px;
+  /* padding: 0px 25px; */
+  background-clip:  content-box;
   width: 100%;
   /* max-width: 2000px; */
   display: flex;
@@ -62,12 +63,19 @@ body {
 
 .pricing-plan {
   /* border-bottom: 1px solid #e1f1ff; */
-  max-width: 300px;
+  max-width: 190px;
+  max-width: 190px;
+  max-height: 400px;
 /* max-height:565px !important; */
-  border: 1rem #8f854f  solid;
-  background-color:lightgreen;
+  border: .5rem #284243  solid;
+  /* background-color:lightgreen; */
+  /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  /* background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%); */
+  /* background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%); */
   border-radius: 10px;
-  transition: all .3s ease-in-out; 
+  transition: all .4s ease-in-out; 
+  margin-top: 3%;
 }
 .pricing-plan:last-child {
   /* border-bottom: none; */
@@ -82,12 +90,13 @@ body {
   color: #888;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 
 .pricing-features {
   margin: 50px 0 25px;
-  color: #479047;
+  color: #f3df6b;
+
 
 }
 
@@ -97,7 +106,9 @@ body {
   font-size: 12px;
   line-height: 1.5;
   padding: 15px 0;
+
   border-top: 1px solid #e1f1ff;
+  
 }
 
 .pricing-features-item:last-child{
@@ -105,7 +116,7 @@ body {
 }
 
 .pricing-price {
-  color: #016ff9; 
+  color: darkgreen; 
   display: block;
   font-size: 32px;
   font-weight: 700;
@@ -114,9 +125,11 @@ body {
 .pricing-button {
   border: 1px solid #9dd1ff;
   border-radius: 10px;
-  color: darkgreen !important;
+  background-color: green;
+  color: white !important;
   display: inline-block;
   padding: 15px 35px;
+  /* background-clip:  content-box; */
   text-decoration: none;
   margin: 25px 0;
   
@@ -128,7 +141,6 @@ body {
 }
 
 .pricing-button.is-featured {
-  background-color: darkseagreen;
   color: white;
 }
 

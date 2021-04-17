@@ -1,12 +1,24 @@
 import React from 'react'
+import Banner from '../head/Banner'
 import Invest from '../pics/invest.jpg'
 import Phone from '../pics/phone.png'
 import Time from '../pics/time.jpg'
+import Header2 from './Header2'
+
 
 export default function BodyDivs() {
     return (
-        <div>
-            <div className="relative flex container margintop " style={{ maxWidth: "" }}>
+        <div >
+
+            <div className="" style={{ top: '0px' }}>
+                <Banner />
+            </div>
+
+
+            <div className=" flexwrap justify margintop">
+                <Header2 />
+            </div>
+            <div className="relative flexwrap container margintop15 justifybetween alignitems" style={{ maxWidth: "" }}>
 
                 <fieldset className="p1 ">
                     <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2></legend>
@@ -26,12 +38,25 @@ export default function BodyDivs() {
                     />
 
                 </div>
+                <div className="" style={{ width: '15rem' }}>
+
+                </div>
+
+                <div className="flex rightcard">
+                    Aliqua occaecat dolor incididunt ut magna id eiu
+                </div>
             </div>
 
-            <div className="relative flex p2 margintop">
 
+            <div className="relative flexwrap p2 margintop  justifybetween alignitems">
+                <div className="flex rightcard">
+                    Aliqua occaecat dolor incididunt ut magna id eiu
+                </div>
+                <div className="" style={{ width: '15rem' }}>
+
+                </div>
                 <fieldset className="p1">
-                    <legend><h2>Sample Text </h2></legend>
+                    <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2></legend>
                     {/* #432928 */}
                     <div className=" flex justifyend">
                         <h4 style={{ color: '#284336' }}>Time To Invest</h4>
@@ -54,10 +79,10 @@ export default function BodyDivs() {
                 </div>
             </div>
 
-            <div className="relative flex margintop container">
+            <div className="relative  flexwrap p2 margintop  justifybetween alignitems">
 
                 <fieldset className="p1" style={{ maxWidth: "" }}>
-                    <legend><h2>Sample Text </h2> </legend>
+                    <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2> </legend>
                     <div className="">
                         <h4>Inner Headline</h4>
                     </div>
@@ -71,9 +96,14 @@ export default function BodyDivs() {
                     <img alt='' src={Phone} className="img3"
                         style={{ maxWidth: "35vw" }}
                     />
+                </div>
+                <div className="" style={{ width: '15rem' }}>
 
                 </div>
+                <div className="flex rightcard">
+                    Aliqua occaecat dolor incididunt ut magna id eiu
+                </div>
             </div>
-        </div>
+        </div >
     )
 }

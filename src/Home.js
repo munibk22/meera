@@ -8,6 +8,8 @@ import Banner from './head/Banner'
 import Footer from './footer/Footer'
 import Search from './head/Search'
 import PricePanel from './pricepanel/PricePanel'
+import Header2 from './body/Header2'
+import Team from './body/Team'
 // import './pricepanel/panel.css'
 
 export default function Home() {
@@ -23,20 +25,30 @@ export default function Home() {
 
 
 
-            <div className="bod flex margin width75 relative max2000" style={{ maxWidth: '' }}>
+            <div className="bod flex margin  relative " style={{ maxWidth: '' }}>
 
-                <div className="absolutetop width75 ">
-                    <Banner />
-                </div>
 
-                <div className="margintop max2000 justify" style={{ maxWidth: '' }} >
+
+
+                <div className=" justify width70" style={{ maxWidth: '1250px' }} >
                     <Body />
                 </div>
 
 
             </div>
 
-            <div className="margintop flex justify  ">
+            <div className='width100 margintop10 cardcontainer ' style={{ backgroundColor: '' }}>
+
+                <Team />
+            </div>
+
+            <div className="flex justify margintop10">
+                <h1>Pricing Plan </h1>
+            </div>
+
+
+
+            <div className=" flex justify margintop ">
                 <PricePanel />
             </div>
 

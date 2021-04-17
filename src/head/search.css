@@ -4,7 +4,8 @@
     display:flex;
     justify-content:center;
     align-items:flex-start;
-   
+    min-height: 32.8px;
+    height: 40px;
    
   }
   .search-button{
@@ -19,19 +20,22 @@
     min-width: 14%;
     /* align-items: center; */
     text-align: center;
-    padding: .29em;
+    padding: .55em;
     width: 5rem;
     height: fit-content;
   
   }
 
   .search-bar{
-    width: 75vw;
+    width: 65vw;
     border:none;
+    /* height:145px; */
+
     /* padding:10px; */
     outline: 0px;
-    min-height: 1.1rem;
-    padding: .6% !important;
+    min-height:29px;
+    /* padding: .7% !important; */
     border-radius: 990px;
-    max-width: 1500px;
+    max-width: 15900px;
+   
   }
