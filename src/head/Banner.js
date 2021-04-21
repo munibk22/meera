@@ -7,11 +7,7 @@ export default function Banner() {
         <div className="banner  flex justify">
 
 
-            <div className="flex justifyaround " style={{
-                width: "55rem",
-
-
-            }}>
+            <div className="flex justifyaround " style={{ width: "" }}>
                 <WatchListContextProvider>
                     <CoinList />
 

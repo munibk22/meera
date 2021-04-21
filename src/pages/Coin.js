@@ -3,15 +3,13 @@ import { Link } from 'react-router-dom'
 
 export default function Coin({ coin }) {
     return (
-        <div className="flex justifybetween alignitems max2000"
+        <div className="flex justifybetween alignitems "
 
-            style={{
-                // width: "55rem",
-            }}>
+            style={{}}>
 
 
             <img className="coinimg marginright1" src={coin.image} alt='' />
-            <div className="marginright2">
+            <div className="">
                 {coin.name}
             </div>
 
