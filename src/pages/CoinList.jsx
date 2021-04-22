@@ -29,7 +29,7 @@ const CoinList = () => {
     
     
             const renderCoins=()=>{
-    return <div className="flexwrap  justifybetween width60 " style={{maxWidth:'1200px'}}
+    return <div className="flexwrap  justifybetween  " style={{maxWidth:'1200px', width:'55vw'}}
 >
     
     {coins.map((coin) =>{

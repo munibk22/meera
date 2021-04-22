@@ -24,32 +24,36 @@ export default function Footer() {
                 <Social />
             </div>
 
-            <div className=" flex">
+            <div className=" flexwrap ">
 
-                <div className="flex width20 padding1" >
-                    dfsdafIrure irure ullamco minim reprehenderit ea fugiat ex sunt esse
+                <div className="width30  flexwrap padding1" >
 
-    </div>
-                <div className="">
-                    <div className="padding2">
-                        <Contact />
-                    </div>
-
-                </div>
-
-                <div className="absolutebottom width20 padding1" style={{ color: 'burlywood', }}>
-                    <div className="" id="">
-                        &ldquo;Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo; &mdash;
+                    <div className="padding1 ">
+                        dfsdafIrure irure ullamco minim reprehenderit ea fugiat ex sunt esse
+                        </div>
+                    <div className="flexcol justifyend  padding1" style={{ color: 'burlywood', }}>
+                        <div className="" id="">
+                            &ldquo;Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo; &mdash;
                         <em>Benjamin Franklin
                             </em>
 
+                        </div>
+                        <br></br>
+                        <div id="app">
+                        </div>
+                        <a href="https://munibkhanresume.tk/" target="blank" className="anchor">
+                            @Munib Khan </a>
                     </div>
-                    <br></br>
-                    <div id="app">
-                    </div>
-                    <a href="https://munibkhanresume.tk/" target="blank" className="anchor">
-                        @Munib Khan </a>
+
                 </div>
+
+                <div className="padding2 width30">
+                    <Contact />
+                </div>
+
+
+
+
             </div>
 
         </div>

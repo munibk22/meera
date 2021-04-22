@@ -13,9 +13,9 @@ export default function Coin({ coin }) {
                 {coin.name}
             </div>
 
-            <div className="marginright2 flex">
-                CurrentPrice:
-                <div className="" style={{ marginLeft: '3%', color: "#97d451" }}>
+            <div className="flex">
+                &nbsp;Price:
+                <div className="" style={{ marginLeft: '3%', width: '75px', color: "#97d451" }}>
                     {coin.current_price}
                 </div>
 

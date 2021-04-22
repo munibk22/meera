@@ -24,12 +24,13 @@ const Contact = () => {
             <form className="flexwrap contact-form width20" onSubmit={sendEmail} style={{ width: '100px' }}>
 
                 <div className="">
-                    <input type="hidden" name="contact_number" />
-                    <label>Name</label>
+                    {/* <input type="hidden" name="contact_number" /> */}
+                    <label htmlFor="user_name">Name</label>
+                    <input type="text" name="user_name" id="user_name" />
                 </div>
                 <div className="">
 
-                    <input type="text" name="user_name" />
+                    {/* */}
                     <label>Email</label>
                 </div>
                 <div className="">

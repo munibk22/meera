@@ -21,7 +21,7 @@ export default function BodyDivs() {
             <div className="relative flexwrap container margintop15 justifybetween alignitems" style={{ maxWidth: "" }}>
 
                 <fieldset className="p1 ">
-                    <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2></legend>
+                    <legend><h2 style={{ color: "#cfa900" }}>Now Is The Time To Invest </h2></legend>
                     <div className="">
                         <h4 style={{ color: '005d31 ' }}>Inner Headline</h4>
                     </div>
@@ -33,7 +33,7 @@ export default function BodyDivs() {
                 </fieldset>
 
                 <div className="flex absolute img1div  ">
-                    <img alt='' src={Invest} className="img1"
+                    <img alt='' src={Time} className="img2"
                         style={{ maxWidth: "35vw" }}
                     />
 
@@ -48,7 +48,7 @@ export default function BodyDivs() {
             </div>
 
 
-            <div className="relative flexwrap p2 margintop  justifybetween alignitems">
+            {/* <div className="relative flexwrap p2 margintop  justifybetween alignitems">
                 <div className="flex rightcard">
                     Aliqua occaecat dolor incididunt ut magna id eiu
                 </div>
@@ -57,7 +57,7 @@ export default function BodyDivs() {
                 </div>
                 <fieldset className="p1">
                     <legend><h2 style={{ color: "#cfa900" }}>Sample Text </h2></legend>
-                    {/* #432928 */}
+                
                     <div className=" flex justifyend">
                         <h4 style={{ color: '#284336' }}>Time To Invest</h4>
                     </div>
@@ -74,10 +74,10 @@ export default function BodyDivs() {
                 </fieldset>
 
                 <div className="flex absolute img2div ">
-                    <img alt='' src={Time} className="img2" />
+                    <img alt='' src={Invest} className="img1" />
 
                 </div>
-            </div>
+            </div> */}
 
             <div className="relative  flexwrap p2 margintop  justifybetween alignitems">
 
