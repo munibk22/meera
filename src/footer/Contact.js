@@ -20,31 +20,54 @@ const Contact = () => {
 
 
     return (
-        <div className="flex justify " style={{ marginTop: '1%' }}>
-            <form className="flexwrap contact-form width20" onSubmit={sendEmail} style={{ width: '100px' }}>
+        <div className=" padding2 " style={{ marginTop: '1%' }}>
+            <div className="textalign">
+                <h2>Get In Touch With Us:</h2>
+            </div>
+            <br></br>
+            <div className="flex justify">
 
-                <div className="">
-                    {/* <input type="hidden" name="contact_number" /> */}
-                    <label htmlFor="user_name">Name</label>
-                    <input type="text" name="user_name" id="user_name" />
-                </div>
-                <div className="">
+                <form className="flex contact-form" onSubmit={sendEmail} style={{ width: '' }}>
 
-                    {/* */}
-                    <label>Email</label>
-                </div>
-                <div className="">
-                    <input type="email" name="user_email" />
-                    <label>Message</label>
-                </div>
-                <div className="">
-                    <textarea name="message" />
-                    <input type="submit" value="Send" />
-                </div>
+                    <div className="margin2" style={{ width: "150px" }} >
 
 
+                        <div className="">
+                            <label htmlFor="user_name">Full Name</label>
+                            <input type="text" name="user_name" id="user_name" />
+                        </div>
+                        <div className="margintop10">
+                            <label htmlFor="email">Email</label>
+                            <input id="email" type="email" name="user_email" />
+                        </div>
+                        <div className="margintop10">
+                            <label htmlFor="number">Phone Number</label>
+                            <input type="text" id="number" name="contact_number" />
+                        </div>
 
-            </form>
+                    </div>
+                    <div className="message margin2 ">
+
+                        <div className="">
+                            <label htmlFor="">Message</label>
+                        </div>
+
+                        <div className="">
+                            <textarea id="message" name="message"
+                                style={{ width: "280px", height: "130px", borderRadius: '' }} />
+                            <div className="">
+                                <input type="submit" value="Send" style={{ display: "block", width: "100%", borderRadius: '10px', padding: '2%' }} />
+                            </div>
+                        </div>
+
+
+                    </div>
+                    {/* <input type="submit" value="Send" style={{ display: "block", width: "100%" }} /> */}
+
+
+                </form>
+
+            </div>
         </div>
     )
 }

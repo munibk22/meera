@@ -38,12 +38,12 @@
     font-size: 1rem;
 }
 
-.mid{
 
-}
 
 .socialbackground:hover{
     background-color: green;
     
     transform: scale(1.07); 
 }
+
+

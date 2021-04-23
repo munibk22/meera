@@ -13,8 +13,6 @@ export default function Head() {
 
             <div className="flex justify">
 
-
-
                 <div className="flexwrap justifybetween alignitems" style={{ width: "95vw" }}>
 
                     <div className="">
@@ -58,13 +56,11 @@ export default function Head() {
 
             </div>
 
-            <div className=" flex justify absolutebottom " >
+            <div className=" flex justify  " >
                 <Nav />
             </div>
 
-            <div className="flex justify ">
-                {/* <CarouselApp /> */}
-            </div>
+
         </div>
     )
 }
