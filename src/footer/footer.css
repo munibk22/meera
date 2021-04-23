@@ -31,7 +31,7 @@
     background-color: #f7faf700;
     border-radius: 50%;
     padding:2.5%;
-    transition: ease-in-out;
+    transition: .3s ease-in-out;
 }
 .anchor{
     color: burlywood !important;

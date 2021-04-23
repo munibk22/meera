@@ -29,33 +29,37 @@ export default function Head() {
 
             </div>
 
-            <div className="flexwrap width100 alignitems" style={{ height: '36vh' }}>
+            <div className="flexwrap width100 justify alignitems" style={{ height: '36vh', lineHeight: '1.5' }}>
 
 
 
-
-                <div className="flexwrap alignitems justify width100">
-
-                    {/* <div className=" width10 alignitems " style={{}}>
-                        <HeadSlogan />
-                    </div> */}
+                <div className="logo flexwrap " style={{ float: 'left' }}>
+                    <img src={Icon} alt='' style={{ width: "7rem", float: 'left' }} className=" " />
+                </div>
 
 
-                    <div className="logo ">
-                        <img src={Icon} alt='' style={{ width: "7rem" }} className=" " />
-                    </div>
-                    <div className="font600  padding2">
-                        <h1 style={{ color: "white" }}> Z&J INVESMENTS LLC</h1>
-                        <ul style={{
-                            color: "#8B7619"
-                            // color: "  #DEB887 "
-                            // color: " #4AAE6E"
-                        }}>Your Trusted Invesment Partner</ul>
+                <div className="font600  padding2 textalign">
+                    <h1 style={{ color: "white" }}> Z&J INVESMENTS LLC</h1>
+                    <ul style={{
+                        color: "#8B7619"
+                        // color: "  #DEB887 "
+                        // color: " #4AAE6E"
+                    }}>Your Trusted Invesment Partner</ul>
+                    <br />
+                    <div className="">
+                        <h3 style={{ color: "white" }}>  12756 Hezel Ln, St. Louis, MO 63141</h3>
+
+                        <a href="tel:6368754054" style={{}} className="tel" >Call us at 636-875-4054 </a>
                     </div>
                 </div>
 
+
             </div>
 
+            <div className="">
+                12756 Hezel Ln, St. Louis, MO 63141
+
+    </div>
             <div className=" flex justify  " >
                 <Nav />
             </div>

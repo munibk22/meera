@@ -9,6 +9,10 @@ background: linear-gradient(to bottom, rgb(1, 34, 0),  #284243 100%);
 
     }
     
+    .tel{
+        color:#2196f3 !important;
+                padding: 2%;
+    }
  .logo{
      /* width:1.3rem; */
      /* background-image: url("../pics/icon.svg"); */
