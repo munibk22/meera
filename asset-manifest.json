@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meera/static/css/main.212f93f2.chunk.css",
-    "main.js": "/meera/static/js/main.ed5c3f2d.chunk.js",
-    "main.js.map": "/meera/static/js/main.ed5c3f2d.chunk.js.map",
+    "main.js": "/meera/static/js/main.87d86d86.chunk.js",
+    "main.js.map": "/meera/static/js/main.87d86d86.chunk.js.map",
     "runtime-main.js": "/meera/static/js/runtime-main.342b12d0.js",
     "runtime-main.js.map": "/meera/static/js/runtime-main.342b12d0.js.map",
     "static/js/2.fb8d3300.chunk.js": "/meera/static/js/2.fb8d3300.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/icon2.1c06acfd.png": "/meera/static/media/icon2.1c06acfd.png",
     "static/media/icon3.7ac32440.png": "/meera/static/media/icon3.7ac32440.png",
     "static/media/invest.57e5a2e4.jpg": "/meera/static/media/invest.57e5a2e4.jpg",
+    "static/media/mj.7b2c7b47.png": "/meera/static/media/mj.7b2c7b47.png",
     "static/media/perfectcell.a1439f8f.jpg": "/meera/static/media/perfectcell.a1439f8f.jpg",
     "static/media/phone.f60cc21b.png": "/meera/static/media/phone.f60cc21b.png",
     "static/media/time.bd1a7aaf.jpg": "/meera/static/media/time.bd1a7aaf.jpg"
@@ -23,6 +24,6 @@
     "static/js/runtime-main.342b12d0.js",
     "static/js/2.fb8d3300.chunk.js",
     "static/css/main.212f93f2.chunk.css",
-    "static/js/main.ed5c3f2d.chunk.js"
+    "static/js/main.87d86d86.chunk.js"
   ]
 }
