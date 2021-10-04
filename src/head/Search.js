@@ -11,11 +11,7 @@ export default function Search() {
             </input>
             <div className="absolute">
                 <button type='submit' className='search-button   '
-                    style={{
-                        textAlign: 'center',
-                        margin: "0"
-
-                    }}>Search </button>
+                    style={{ textAlign: 'center', margin: "0" }}>Search </button>
 
             </div>
 

@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <div className=" padding2 " style={{ marginTop: '1%' }}>
             <div className="textalign">
-                <h2>Get In Touch With Us:</h2>
+                <h2>Send Us A Message:</h2>
             </div>
             <br></br>
             <div className="flex justify">

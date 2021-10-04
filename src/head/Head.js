@@ -29,12 +29,12 @@ export default function Head() {
 
             </div>
 
-            <div className="flexwrap width100 justify alignitems" style={{ height: '36vh', lineHeight: '1.5' }}>
+            <div className="flexwrap width100 justify alignitems " style={{ height: '34vh', lineHeight: '1.5' }}>
 
 
 
-                <div className="logo flexwrap " style={{ float: 'left' }}>
-                    <img src={Icon} alt='' style={{ width: "7rem", float: 'left' }} className=" " />
+                <div className="logo flexwrap " style={{ float: '' }}>
+                    <img src={Icon} alt='' style={{ width: "7rem", float: '' }} className=" " />
                 </div>
 
 
@@ -47,7 +47,7 @@ export default function Head() {
                     }}>Your Trusted Invesment Partner</ul>
                     <br />
                     <div className="">
-                        <h3 style={{ color: "white" }}>  12756 Hezel Ln, St. Louis, MO 63141</h3>
+                        <h3 style={{ color: "white" }}>  12757 Hezel Ln, St. Louis, MO 63141</h3>
 
                         <a href="tel:6368754054" style={{}} className="tel" >Call us at 636-875-4054 </a>
                     </div>
@@ -59,7 +59,7 @@ export default function Head() {
             <div className="">
                 12756 Hezel Ln, St. Louis, MO 63141
 
-    </div>
+            </div>
             <div className=" flex justify  " >
                 <Nav />
             </div>

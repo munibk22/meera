@@ -14,14 +14,8 @@ export default function Footer() {
     return (
         <div className="footer relative">
 
-            <div className="flex justify top">
-                <h3> Footer</h3>
-            </div>
-
-
-            <div className="flex " style={{ width: '100%' }}>
-                {/* <hr /> */}
-                <Social />
+            <div className="flex justify top padding1">
+                <h2> Get In Touch With Us:</h2>
             </div>
 
             <div className=" flexwrap ">
@@ -81,6 +75,11 @@ export default function Footer() {
 
             </div>
 
+
+            <div className="flex " style={{ width: '100%' }}>
+                {/* <hr /> */}
+                <Social />
+            </div>
         </div>
     )
 }
