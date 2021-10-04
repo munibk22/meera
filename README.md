@@ -1,12 +1,14 @@
 <h2>Front End For Z/J Investments</h2>
 <br />
 #Created using React on frontend
--SpringBoot application for backend/server management
--PostGres database used
--Hosted with AWS
+<ul>
+<li>-SpringBoot application for backend/server management</li>
+<li>-PostGres database used</li>
+<li>-Hosted with AWS</li>
+</ul>
 
-<br />
+<br /><br />
 #Contact Us form created using EmailJS.com
 
-<br />
+<br /><br />
 #Password encrypted using BCrypt
