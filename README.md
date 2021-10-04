@@ -7,7 +7,7 @@
 <li>-Hosted with AWS</li>
 </ul>
 
-<br /><br />
+<br />
 #Contact Us form created using EmailJS.com
 
 <br /><br />
