@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import LoginForm from '../components/LoginForm';
 
 
 const url = "http://18.117.255.214:8082/users/";
 // const modalBg = document.querySelector(".modal-bg");
-const modalBg = document.getElementById("modal");
+
 
 export const HeadNav = () => {
     const [show, setShow] = useState(false);
     const list = "bg-active";
-
+    var [modalBg, setModalBg] = useState();
 
     const modalBtn = document.querySelector(".modalBtn");
     const modalClose = document.querySelector(".btn-close");
@@ -18,23 +18,28 @@ export const HeadNav = () => {
     const handleShow = () => setShow(true);
     const url2 = "http://localhost:8082/login"
 
+    useEffect(() => {
+        // modalBg = document.getElementById("modal");
+        setModalBg(document.getElementById("modal"));
+        return () => {
 
+        }
+    }, [])
     async function handleLogin(e) {
         e.preventDefault();
-
         console.log("Client intitiated Login");
-        modalBg.classList.add(list);
+        // setShow(true)
 
-        setShow(true)
-
-        // try {
-        //     const response = await axios.get(url2);
-        //     if (response.status === 200) {
-        //         console.log("User successfully loggin in");
-        //     }
-        // } catch (error) {
-        //     console.log("User cound not log in " + error);
-        // }
+        try {
+            modalBg.classList.add(list);
+            // const response = await axios.get(url2);
+            // if (response.status === 200) {
+            //     console.log("User successfully loggin in");
+            // }
+        } catch (error) {
+            console.log("User cound not log in " + error);
+            // handleLogin(e)
+        }
     }
 
 

@@ -1,8 +1,18 @@
 import { Button } from "react-bootstrap"
+import React, { useEffect, useState } from 'react';
 
 const LoginForm = () => {
-    const modalBg = document.querySelector(".modal-bg");
+    var [modalBg, setModalBg] = useState();
     const modalClose = document.querySelector(".btn-close");
+
+    useEffect(() => {
+        setModalBg(document.getElementById("modal"));
+        return () => {
+
+        }
+    }, [])
+
+
 
     const handleClose = (e) => {
         e.preventDefault();
