@@ -1,94 +1,138 @@
-.head{
-    /* width:100vw; */
-    min-height:40vh;
-/* background-color: #007B40     ; */
-/* background-size: contain; */
-/* background-color: #284243; */
+.head {
+  /* width:100vw; */
+  min-height: 40vh;
+  /* background-color: #007B40     ; */
+  /* background-size: contain; */
+  /* background-color: #284243; */
 
-background: linear-gradient(to bottom, rgb(1, 34, 0),  #284243 100%);
+  background: linear-gradient(to bottom, rgb(1, 34, 0), #284243 100%);
+}
 
-    }
-    
-    .tel{
-        color:#2196f3 !important;
-                padding: 2%;
-    }
- .logo{
-     /* width:1.3rem; */
-     /* background-image: url("../pics/icon.svg"); */
-     background-repeat: no-repeat;
-     border-radius: 50%;
-     padding:1%;
-     /* height:.2rem; */
-     border: 3px white solid;
+.tel {
+  color: #2196f3 !important;
+  padding: 2%;
+}
+.logo {
+  /* width:1.3rem; */
+  /* background-image: url("../pics/icon.svg"); */
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  padding: 1%;
+  /* height:.2rem; */
+  border: 3px white solid;
+}
 
-    
-     
- }   
+.banner {
+  /* background-color: #007B40     ; */
+  background-color: #2d685f;
+  align-items: center;
+  min-height: 35px;
 
- .banner{
-    /* background-color: #007B40     ; */
-    background-color:#2D685F;
-    align-items: center;
-    min-height: 35px;
- 
-    border-radius: 300px;
-    color: #cfa900;
-    /* color:#FF8946; */
+  border-radius: 300px;
+  color: #cfa900;
+  /* color:#FF8946; */
 
-    font-size: .9rem;
- }
+  font-size: 0.9rem;
+}
 
- .coinimg{
-     width: 1.7rem;
-     height: 1.7rem;
- }
- .navbar{
-color:white ;
-background-color: #02703b;
-max-width: 1250px;
-position: sticky !important;
+.coinimg {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.navbar {
+  color: white;
+  background-color: #02703b;
+  max-width: 1250px;
+  position: sticky !important;
   top: 0px;
-border-radius: 100px;
-padding:.1%;
- }
-
- a{
-    color:white !important; 
-    text-decoration: none;
-    font-size: 1.2em;
- }
-
-.navul{
-
-    flex:1;
-    max-width: 60%;
-    justify-content: space-between;
-
+  border-radius: 100px;
+  padding: 0.1%;
 }
 
-
-
- @media (max-width:500px){
-
-    a{
-font-size: .7rem !important;
-
-    }
- }
-
- 
- @media (max-width:668px){
-    a{
-        font-size:.8rem;
-
-    }
+a {
+  color: white !important;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
- 
-@media (max-width:568px){
-    .navbar, .navul {
-       /* flex-direction: column; */
+.navul {
+  flex: 1;
+  max-width: 60%;
+  justify-content: space-between;
+}
 
-    }
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+.modal-dialog {
+  max-width: 400px;
+  max-height: 400px;
+  background-color: white;
+  border-radius: 3%;
+  padding: 2%;
+}
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em;
+  color: #000;
+  background: transparent
+    url(
+      data:image/svg + xml;charset=utf-8,
+      %3Csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="%23000"%3E%3Cpathd="M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z"/%3E%3C/svg%3E
+    )
+    50%/1em auto no-repeat;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.modalbutton {
+  width: 100%;
+  background-color: #0d6efd;
+  color: #fff;
+  margin: 5px;
+  padding: 2%;
+  cursor: pointer;
+}
+.modalBtn {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  a {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width: 668px) {
+  a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .navbar,
+  .navul {
+    /* flex-direction: column; */
+  }
 }

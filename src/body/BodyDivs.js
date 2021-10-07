@@ -32,7 +32,7 @@ export default function BodyDivs() {
 
                         <p className="" >
                             Here is something about the Oracle of Omaha! I bet he is buying like crazy and we will find out in a few months.
-                    </p>
+                        </p>
                         <br></br><div className="">
                             Buffet says to "Be fearful when others are greedy and to be greedy only when others are fearful." He also once stated, "Opportunities come infrequently.
                             When it rains gold, put out the bucket, not the thimble."
@@ -62,7 +62,7 @@ export default function BodyDivs() {
                         There are certainly a lot of investors who are very fearful right now. However, the Oracle of Omaha undoubtly
                         sees the current coronavirus-caused market meltdown as one of those rare oppurtunities where it's raining
                         gold.
-                        </p >
+                    </p >
                     <p className="padding2"> We will research the best investment for you and your family. </p>
 
                 </div>
@@ -112,7 +112,7 @@ export default function BodyDivs() {
                         Aliqua occaecat dolor incididunt ut magna id eiusmod sit consequat nisi. Adipisicing cupidatat ad dolore
                         consectetur aliqua velit aute. Nulla cillum qui dolore sunt enim quis ut tempor ut non exercitation laborum.
                         Cillum tempor fugiat pariatur enim excepteur Lorem ipsum eiusmod ipsum deserunt amet.
-                            </p>
+                    </p>
                 </fieldset>
 
                 <div className="flex absolute img3div ">
@@ -124,7 +124,7 @@ export default function BodyDivs() {
 
                 </div>
                 <div className="flex rightcard">
-                    Aliqua occaecat dolor incididunt ut magna id eiu
+                    ---
                 </div>
             </div>
         </div >

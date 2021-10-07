@@ -34,15 +34,15 @@ const Team = () => {
                         <hr style={{ width: '14.5rem' }}></hr>
                         <div ><h2 className=' textalign' >MJ</h2></div>
                         <div style={{ marginTop: '3%', fontSize: '.9rem', padding: '5%' }} className="">
-                            I'm a Entrepreneur who's here to help as many people throughout investing. 
-                            To Learn and achieve their financial goals to enhance their life in a positive way. 
-                           
-                         </div>
-                        <div className="textalign" style={{  padding: '1%' }}>
-                           z.jinvestments08@gmail.com
-                             </div>
+                            I'm a Entrepreneur who's here to help as many people throughout investing.
+                            To Learn and achieve their financial goals to enhance their life in a positive way.
+
+                        </div>
+                        <div className="textalign" style={{ padding: '1%' }}>
+                            z.jinvestments08@gmail.com
+                        </div>
                         <div className="textalign">
-                        <a href="tel:6368754054" class="tel">Call 636-875-4054 </a>
+                            <a href="tel:6368754054" class="tel">Call 636-875-4054 </a>
                         </div>
 
                     </div>
@@ -54,8 +54,8 @@ const Team = () => {
                         <hr style={{ width: '14.5rem' }}></hr>
                         <div style={{ marginTop: '3%' }}  ><h2>Munib Khan</h2></div>
                         <div style={{ marginTop: '3%' }}>
-                            Full Stack Javascript/React Developer.
-</div>
+                            Full Stack Java/React Developer.
+                        </div>
                     </div>
                 </div>
             </div>
