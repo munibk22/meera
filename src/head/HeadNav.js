@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Modals } from '../utils/Modals';
-import { Modal, Button } from 'react-bootstrap'
 import LoginForm from '../components/LoginForm';
-import Modals2 from '../utils/Modals2';
 
+
+const url = "http://18.117.255.214:8082/users/";
+// const modalBg = document.querySelector(".modal-bg");
+const modalBg = document.getElementById("modal");
 
 export const HeadNav = () => {
     const [show, setShow] = useState(false);
+    const list = "bg-active";
 
-    const modalBg = document.querySelector(".modal-bg");
+
     const modalBtn = document.querySelector(".modalBtn");
     const modalClose = document.querySelector(".btn-close");
 
@@ -21,8 +23,7 @@ export const HeadNav = () => {
         e.preventDefault();
 
         console.log("Client intitiated Login");
-        modalBg.classList.add("bg-active");
-        const url = "http://18.117.255.214:8082/users/"
+        modalBg.classList.add(list);
 
         setShow(true)
 

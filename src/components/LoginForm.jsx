@@ -41,7 +41,8 @@ const LoginForm = () => {
                 <br />
                 <hr />
                 <div style={{ width: "100%" }} className="flex justify margintop10">
-                    <button className=" modalbutton"
+                    <button onClick={handleClose}
+                        className=" modalbutton"
                         style={{}}
                         size="lg" type="submit">Sign in</button>
                 </div>
