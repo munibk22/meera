@@ -49,7 +49,7 @@ export default function Head() {
                     <div className="">
                         <h3 style={{ color: "white" }}>  12756 Hezel Ln, St. Louis, MO 63141</h3>
 
-                        <a href="tel:6368754054" style={{}} className="tel" >Call us at 636-875-4054 </a>
+                        <a href="tel:6368754054" style={{}} className="tel" >Call us at 636-875-4055 </a>
                     </div>
                 </div>
 
